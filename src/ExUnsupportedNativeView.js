@@ -1,5 +1,4 @@
-import React, { PropTypes } from 'react';
-import { View } from 'react-native';
+import React from 'react';
 
 export function unsupportedNativeView(name) {
   return class ExUnsupportedNativeView extends React.Component {
